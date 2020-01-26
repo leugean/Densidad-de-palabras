@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Density</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a6b891177b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+        <header>
+            <h1>Word Density</h1>
+        </header>
+        <section>
+            <form action="">
+                <textarea name="" id="text" placeholder="Enter your text" cols="30" rows="10"></textarea>
+                <p>Keyword <input type="text" id="keyword"> </p>
+                <p>
+                    <input  type="button" class="btn" value="Submit" onclick="wordDensity()">
+                    <input type="reset" class="btn" value="Restore">
+                </p>
+                <p id="words"></p>
+                <p id="key"></p>
+            </form>
+           
+        </section>
+       
+       
+
+
+    <script src="density.js"></script>
+</body>
+</html>
